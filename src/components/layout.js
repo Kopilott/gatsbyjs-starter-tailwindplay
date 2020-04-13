@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { StaticQuery, graphql } from "gatsby";
 
-import heroImg from "../images/ecommerce-uruguay.png";
+import heroImg from "../images/ecommerce-uruguay.webp";
 
 function Layout({ children }) {
   return (
