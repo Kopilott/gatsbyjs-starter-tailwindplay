@@ -50,7 +50,7 @@ function Layout({ children }) {
                   </ul>
                   <form action={data.site.siteMetadata.github}>
                     <button type="submit" id="navAction" 
-                            className="mx-auto lg:mx-0 hover:underline font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 gradient text-white">Get Sources</button>
+                            className="mx-auto lg:mx-0 hover:underline font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 gradient text-white">Whatsapp</button>
                   </form>
 
                 </div>
@@ -112,8 +112,8 @@ function Layout({ children }) {
               
                 <div className="flex flex-wrap">
                   <div className="w-5/6 sm:w-1/2 p-6">
-                    <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Built in GatsbyJS</h3>
-                    <p className="text-gray-600 mb-8">Gatsby is a free and open source framework based on React that helps developers build blazing fast websites and apps.<br /><br />
+                    <h3 className="text-3xl text-black-800 font-bold leading-none mb-3">Built in GatsbyJS</h3>
+                    <p className="text-gray-800 mb-8">Gatsby is a free and open source framework based on React that helps developers build blazing fast websites and apps.<br /><br />
                     
                     Images from: <a className="text-orange-500 underline" href="https://undraw.co/">undraw.co</a></p>
                     
@@ -216,7 +216,7 @@ function Layout({ children }) {
                   <div className="w-full sm:w-1/2 p-6 mt-6">
                     <div className="align-middle">
                       <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Styled with Tailwind CSS</h3>
-                      <p className="text-gray-600 mb-8">Tailwind CSS is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override.<br /><br />
+                      <p className="text-gray-800 mb-8">Tailwind CSS is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override.<br /><br />
                       Images from: <a className="text-orange-500 underline" href="https://undraw.co/">undraw.co</a></p>
                     </div>
                   </div>
@@ -238,7 +238,7 @@ function Layout({ children }) {
                 <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
                   <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
                     <a href="https://www.gatsbyjs.org/" className="flex flex-wrap no-underline hover:no-underline">
-                      <p className="w-full text-gray-600 text-xs md:text-sm px-6">Blazing Fast</p>
+                      <p className="w-full text-gray-800 text-xs md:text-sm px-6">Blazing Fast</p>
                       <div className="w-full font-bold text-xl text-gray-800 px-6">Static Progressive Web App</div>
                       <p className="text-gray-800 text-base px-6 mb-5">
                         Why Gatsby? Gatsby is a static PWA (Progressive Web App) generator. Gatsby loads only the critical HTML, CSS, data, and JavaScript so your site loads as fast as possible. 
@@ -257,7 +257,7 @@ function Layout({ children }) {
                 <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
                   <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
                     <a href="https://tailwindcss.com/" className="flex flex-wrap no-underline hover:no-underline">
-                      <p className="w-full text-gray-600 text-xs md:text-sm px-6">Tailwind is different</p>
+                      <p className="w-full text-gray-800 text-xs md:text-sm px-6">Tailwind is different</p>
                       <div className="w-full font-bold text-xl text-gray-800 px-6">State-of-the-art CSS Framework</div>
                       <p className="text-gray-800 text-base px-6 mb-5">
                         Instead of opinionated predesigned components, Tailwind provides low-level utility classes that let you build completely custom designs without ever leaving your HTML.
@@ -276,7 +276,7 @@ function Layout({ children }) {
                 <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
                   <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
                     <a href="#" className="flex flex-wrap no-underline hover:no-underline">
-                      <p className="w-full text-gray-600 text-xs md:text-sm px-6">Open-Source</p>
+                      <p className="w-full text-gray-800 text-xs md:text-sm px-6">Open-Source</p>
                       <div className="w-full font-bold text-xl text-gray-800 px-6">Coded by <a href="https://twitter.com/Sm0keDev">Sm0ke</a> </div>
                       <p className="text-gray-800 text-base px-6 mb-5">
                         The source code is released under a license in which the copyright holder grants users the rights to study, change, and distribute the software to anyone and for any purpose.
@@ -308,7 +308,7 @@ function Layout({ children }) {
                 <div className="flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4">
                   
                   <div className="flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4">
-                    <div className="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
+                    <div className="flex-1 bg-white text-gray-800 rounded-t rounded-b-none overflow-hidden shadow">
                       <div className="p-8 text-3xl font-bold text-center border-b-4">Free</div>
                       <ul className="w-full text-center text-sm">
                         <li className="border-b py-4">Thing</li>
@@ -317,7 +317,7 @@ function Layout({ children }) {
                       </ul>
                     </div>
                     <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-                      <div className="w-full pt-6 text-3xl text-gray-600 font-bold text-center">£0 <span className="text-base">for one user</span></div>
+                      <div className="w-full pt-6 text-3xl text-gray-800 font-bold text-center">£0 <span className="text-base">for one user</span></div>
                       <div className="flex items-center justify-center">
                         <button className="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg">Sign Up</button>
                       </div>
@@ -344,7 +344,7 @@ function Layout({ children }) {
                   </div>
                   
                   <div className="flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4">
-                    <div className="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
+                    <div className="flex-1 bg-white text-gray-800 rounded-t rounded-b-none overflow-hidden shadow">
                       <div className="p-8 text-3xl font-bold text-center border-b-4">Pro</div>
                       <ul className="w-full text-center text-sm">
                         <li className="border-b py-4">Thing</li>
@@ -353,7 +353,7 @@ function Layout({ children }) {
                       </ul>
                     </div>
                     <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-                      <div className="w-full pt-6 text-3xl text-gray-600 font-bold text-center">£x.99 <span className="text-base">/ per user</span></div>
+                      <div className="w-full pt-6 text-3xl text-gray-800 font-bold text-center">£x.99 <span className="text-base">/ per user</span></div>
                       <div className="flex items-center justify-center">
                         <button className="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg">Sign Up</button>
                       </div>
@@ -419,7 +419,7 @@ function Layout({ children }) {
                 
                 
                         <div className="flex-1">
-                            <p className="uppercase text-gray-500 md:mb-6">Links</p>
+                            <p className="uppercase text-gray-800 md:mb-6">Links</p>
                             <ul className="list-reset mb-6">
                                 <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                                     <a href="#" className="no-underline hover:underline text-gray-800 hover:text-orange-500">FAQ</a>
