@@ -24,6 +24,7 @@ module.exports = {
       }
     },
     `gatsby-plugin-postcss`,
+    `gatsby-plugin-offline`,
     {
       resolve: "gatsby-plugin-purgecss",
       options: {
@@ -31,5 +32,6 @@ module.exports = {
         purgeOnly: ["src/css/style.css", "src/css/global.css"]
       }
     }
+    
   ]
 };
